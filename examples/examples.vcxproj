@@ -153,11 +153,14 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="binary_literals.cpp" />
-    <ClCompile Include="contextpr_functions.cpp" />
+    <ClCompile Include="binary_literals_and_digit_separators.cpp" />
+    <ClCompile Include="constexpr_if.cpp" />
+    <ClCompile Include="contextr_functions.cpp" />
     <ClCompile Include="decltype_auto.cpp" />
+    <ClCompile Include="deprecated-attribute.cpp" />
     <ClCompile Include="examples.cpp" />
     <ClCompile Include="generic_lambdas.cpp" />
+    <ClCompile Include="if_with_initialiser.cpp" />
     <ClCompile Include="lambda_capture.cpp" />
     <ClCompile Include="returning_auto.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -166,6 +169,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="structured_bind.cpp" />
     <ClCompile Include="template_variables.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

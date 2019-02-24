@@ -38,16 +38,28 @@
     <ClCompile Include="lambda_capture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="contextpr_functions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="binary_literals.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="template_variables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="decltype_auto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structured_bind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="if_with_initialiser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deprecated-attribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_literals_and_digit_separators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="contextr_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="constexpr_if.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

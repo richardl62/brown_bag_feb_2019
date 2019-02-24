@@ -24,6 +24,7 @@ auto hello(bool french)
 	else
 		return "hello";
 }
+// Also now allow lambdas with more that one return.
 
 #if 0
 auto hello_BAD(bool use_string)
@@ -35,11 +36,4 @@ auto hello_BAD(bool use_string)
 }
 #endif 0
 
-constexpr bool use_string = true;
-auto hello()
-{
-	if constexpr (use_string)
-		return std::string("hello");
-	else
-		return "hello";
-}
+
