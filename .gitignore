@@ -1,3 +1,7 @@
+# MSDev
+examples/.vs
+examples/Debug
+
 # Prerequisites
 *.d
 
